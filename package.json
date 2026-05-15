@@ -1,0 +1,43 @@
+{
+  "name": "form-lite-engine",
+  "version": "1.2.0",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --watch --dts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "peerDependencies": {
+    "antd": ">=5",
+    "react": ">=18",
+    "react-hook-form": ">=7"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^25.8.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "jsdom": "^29.1.1",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Motavakel/form-lite-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Motavakel/form-lite-engine/issues"
+  },
+  "author": "Milad Motavakel",
+  "license": "Apache-2.0"
+}

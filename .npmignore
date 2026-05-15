@@ -1,0 +1,16 @@
+src/
+tsup.config.ts
+tsconfig*.json
+eslint.config.js
+vite.config.ts
+.github/
+.vscode/
+.husky/
+*.test.*
+*.spec.*
+__tests__/
+index.html
+*.log
+.env*
+.DS_Store
+Thumbs.db
