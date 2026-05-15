@@ -11,14 +11,13 @@
 ##  The Story Behind Form Lite Engine
  
 <p align="justify">
-In large-scale enterprise projects, building and managing complex forms often means drowning in repetitive boilerplate code and wrestling with logic errors. To eliminate this problem once and for all, I built Form Lite Engine.
+Drawing from my years of experience architecting large-scale enterprise projects, I know firsthand that building complex forms usually means drowning in repetitive boilerplate code and wrestling with logic errors. To eliminate this problem once and for all—for myself and the developer community—I built Form Lite Engine.
   
 <p align="justify">
 It is a lightweight yet powerful engine designed specifically for projects with dozens of long, complex forms. My goal was to create a declarative solution that permanently saves developers from redundant, error-prone tasks and keeps the codebase incredibly clean. Instead of keeping this as an internal utility, I published it as a public NPM package to help the community build faster, smarter, and cleaner forms.
 
 <p align="justify">
-در پروژه‌های بزرگ و سازمانی، توسعه فرم‌های پیچیده معمولاً به معنای غرق شدن در کدهای تکراری (Boilerplate) و دست‌وپنجه نرم کردن با خطاهای منطقی است. برای اینکه یک‌بار برای همیشه از شر این فرآیندهای تکراری و پرخطا رها شویم، Form Lite Engine را توسعه دادم. 
-  <p align="justify">
+بعد از سال ها تجربه حضور شرکت در پروژه های بزرگ و کوچک مختلف در می توان بگویم که ساخت فرم‌های پیچیده معمولاً به معنای غرق شدن در کدهای تکراری (Boilerplate) و دست‌وپنجه نرم کردن با خطاهای منطقی است. برای اینکه یک‌بار برای همیشه خودم و جامعه توسعه‌دهندگان را از شر این فرآیندهای خسته‌کننده و پرخطا رها کنم، Form Lite Engine را توسعه دادم.  <p align="justify">
 این کتابخانه، انجینی سبک اما بسیار قدرتمند است که به‌طور اختصاصی برای پروژه‌هایی با ده‌ها فرم طولانی طراحی شده است. هدف من ایجاد یک ساختار تمیز بود که توسعه‌دهنده را از درگیری با کدهای اضافه نجات دهد. تصمیم گرفتم به‌جای استفاده صرفاً شخصی در پروژه‌ها، این ابزار را به‌عنوان یک پکیج عمومی در NPM منتشر کنم تا فرآیند ساخت فرم‌های مدرن را برای جامعه برنامه‌نویسان نیز ساده‌تر و سریع‌تر کنم.
 
 ---
